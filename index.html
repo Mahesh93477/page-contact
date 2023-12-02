@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body style="background-image: url(./bg-image.svg); background-repeat: no-repeat; background-size: cover;">
+    <img src="./contact-form-icon.svg" alt="">
+    <div class="container">
+        <h1>Interested in our business pricing ?</h1>
+        <h3>Fill out the form to view details and We'll contact you as soon as possible.</h3>
+
+        <div class="page">
+            <form action="">
+                <label id="name" for="text">Name</label>
+                <input type="text" name="text">
+                <label for="email">Company Email</label>
+                <input type="email" name="email">
+
+                <label class="cmname one" for="Csize">Company size</label>
+                <select class="cmname two" name="Csize" id="Csize">
+                    <option value="50-100 employees">50-100 employees</option>
+                </select>
+
+                <label for="lpages">Subject</label>
+                <select name="lpages" id="lpages">
+                    <option value="Building Landing pages">Building Landing pages</option>
+                </select>
+                
+                <label for="message">Message</label>
+                <input id="msg" type="text" placeholder="50-100 employees">
+                <button type="button">Contact Sales</button>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
